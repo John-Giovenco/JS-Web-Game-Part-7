@@ -1,4 +1,4 @@
-const ltw = laserTwo(350, 800)
+var ltw = laserTwo(350, 800)
 
 function moveLTW(){
     

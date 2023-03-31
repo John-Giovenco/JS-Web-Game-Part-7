@@ -1,10 +1,10 @@
-function newNonPlayableCharacter(x, y) {
+function laserOne(x, y) {
     let element = newImage('./asset/laser.png')
     element.style.zIndex = 1;
     
     let direction = null;
 
-    function moveCharacter() {
+    function moveLaserOne() {
         
         if (direction === 'south') {
             y -= 1
@@ -13,7 +13,7 @@ function newNonPlayableCharacter(x, y) {
         element.style.bottom = y + 'px'
     }
 
-    setInterval(moveCharacter, 1)
+    setInterval(moveLaserOne, 1)
 
     async function walkSouth(time) {
         direction = 'south'

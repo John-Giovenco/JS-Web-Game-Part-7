@@ -1,4 +1,4 @@
-function newLaserTwo(x, y) {
+function laserTwo(x, y) {
     let element = newImage('./asset/sword.png')
     element.style.zIndex = 1;
     
